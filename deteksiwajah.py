@@ -4,10 +4,10 @@ import numpy as np
 import cv2 
 
 pengklasifikasiWajah = cv2.CascadeClassifier(
-    "haarcascade_frontalface_default.xml")
+    "haarcascade_frontalface_default.xml") # file ini harus ada bersama dengan program ini
 
-citra = cv2.imread("MIT.jpg")
-
+citra = cv2.imread("MIT.jpg") #disni kalian harus masukan foto ya 
+ram 
 if citra is None:
     print("Tidak dapat membaca berkas citra")
     exit()    
